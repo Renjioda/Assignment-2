@@ -1,0 +1,3 @@
+public class PaymentProcessor {
+    public void processPayment(PaymentType type);
+}
