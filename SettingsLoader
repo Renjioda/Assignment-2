@@ -1,0 +1,6 @@
+public class SettingsLoader {
+    public static final String SETTINGS_FILE = "settings.conf";
+    
+    public void loadFromFile(MegaSystemManager manager);
+    private void parseSettingLine(String line, MegaSystemManager manager);
+}
