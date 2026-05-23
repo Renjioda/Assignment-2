@@ -1,0 +1,10 @@
+public enum UserType {
+    REGULAR(1),
+    PREMIUM(2),
+    GUEST(3);
+    
+    private final int code;
+    private UserType(int code);
+    public int getCode();
+    public static UserType fromCode(int code);
+}
