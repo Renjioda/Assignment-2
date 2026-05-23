@@ -1,0 +1,5 @@
+public class ReportPrinter {
+    public void printOrderReport(OrderRequest request, double total);
+    public void printOrderSummary(OrderRequest request, double total);
+    public void printUserInfo(String name, int age);
+}
