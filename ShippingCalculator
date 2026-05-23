@@ -1,0 +1,11 @@
+public class ShippingCalculator {
+    public static final int DISTANCE_TIER1 = 10;
+    public static final int DISTANCE_TIER2 = 50;
+    public static final int DISTANCE_TIER3 = 100;
+    public static final int COST_TIER1 = 50;
+    public static final int COST_TIER2 = 100;
+    public static final int COST_TIER3 = 150;
+    public static final int COST_MAX = 200;
+    
+    public int calculateCost(int distance);
+}
